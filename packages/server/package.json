@@ -1,0 +1,29 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon",
+        "build": "tsc --build",
+        "lint": "eslint"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.1.1",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript-eslint": "^8.24.1"
+    },
+    "dependencies": {
+        "dotenv-flow": "^4.1.0",
+        "esm-env": "^1.2.2",
+        "express": "^5.1.0",
+        "helmet": "^8.1.0",
+        "jose": "^6.0.10"
+    }
+}
